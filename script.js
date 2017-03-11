@@ -20,7 +20,7 @@ function submitAnswers() {
 	}
 
 	// Set Correct Answers 
-	var answers = ["b", "a", "d", "b", "d"];
+	var answers = ["c", "b", "c", "a", "d"];
 
 	// Check Answers 
 	for(var i = 1; i<=5; i++) {
