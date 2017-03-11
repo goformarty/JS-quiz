@@ -1,32 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono|Open+Sans:300,400');
+
 body {
-	background: #f06226;
-	color: #fff;
-	font-family: "Arial", sans-serif;
+	background: #f0f0f0;
+	color: #000;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 }
 
 #container {
+	box-sizing: border-box;
 	width: 60%;
-	background: #199fdb;
+	background: #fff;
+	border: #ff5a5d 1px solid;
 	margin: 20px auto;
 	overflow: auto;
-	padding: 25px;
+	padding: 50px;
 }
 
 header {
 	text-align: center;
-	border-bottom: #fff dashed 1px;
+	border-bottom: #ff5a5d solid 1px;
 }
 
 header h1 {
 	margin: 0;
 	padding: 0;
+	text-transform: uppercase;
 }
 
 header p {
+	font-family: 'Cutive Mono', monospace;
+	color: #ff5a5d;
 	padding: 0;
 	margin-top: 5px;
-	color: #000;
+	margin-bottom: 20px;
+}
+
+
+form h3 {
+	color: #ff5a5d;
 }
 
 section {
@@ -37,8 +49,15 @@ footer {
 	text-align: center;
 }
 
+footer p {
+	font-family: 'Cutive Mono', monospace;
+	font-size: 12px;
+}
+
 input[type="submit"] {
-	background-color: #f06226;
+	background-color: #ff5a5d;
+	font-family: 'Cutive Mono', monospace;
+	font-size: 16px;
 	border: 0;
 	color: #fff;
 	padding: 10px 15px;
@@ -46,7 +65,7 @@ input[type="submit"] {
 }
 
 #results h3 {
-	background: #f06226;
+	background: #fde0dc;
 	padding: 10px;
 	margin: 10px 0;
 }
