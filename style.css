@@ -69,6 +69,8 @@ input[type="submit"] {
 }
 
 #results h3 {
+	color: #ff5a5d;
+	font-family: 'Cutive Mono', monospace;
 	background: #fde0dc;
 	padding: 10px;
 	margin: 10px 0;
@@ -76,5 +78,4 @@ input[type="submit"] {
 
 #results span {
 	color: #000;
-	font-weight: bold;
 }
